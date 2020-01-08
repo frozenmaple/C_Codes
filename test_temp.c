@@ -5,7 +5,7 @@
 ** Login   <frozenmaple>
 **
 ** Started on  Sat Oct 12 上午9:36:23 2019 frozenmaple
-** Last update Thu Jan 8 下午1:08:52 2020 frozenmaple
+** Last update Thu Jan 8 下午3:32:56 2020 frozenmaple
 */
 
 #include <stdio.h>
@@ -13,7 +13,7 @@ int main()
 {
   /*temp area for check display result
   /*
-  //
+
   int n, m;
   n = 2;
   m = 1;
