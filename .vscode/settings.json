@@ -1,2 +1,76 @@
+// 将设置放入此文件中以覆盖默认设置
 {
+    //"atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "editor.fontSize": 18,
+    //"editor.fontFamily": "Consolas, 'Courier New', monospace"
+    "python.pythonPath": "C:\\Users\\froze\\Anaconda3\\python.exe",
+    //"python.pythonPath": "C:\\Users\\froze\\AppData\\Local\\Programs\\Python\\Python36\\python.exe",
+    "workbench.startupEditor": "newUntitledFile",
+    "files.autoSave": "afterDelay",
+    "files.hotExit": "onExitAndWindowClose",
+    "workbench.iconTheme": "material-icon-theme",
+
+    /* Integrated Terminal set for git-for-windows */
+    //"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
+    /*
+    // Command Prompt
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe"
+    // PowerShell
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    // Git Bash
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+    // Bash on Ubuntu (on Windows)
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe"
+    */
+
+    /* Integrated Terminal set for git-under-WSL */
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    //"git.path": "C:\\Windows\\System32\\wslgit.exe",
+
+    "editor.tabCompletion":"on",//"onlySnippets",
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.fileDirectoryAsCwd": true,
+    "code-runner.saveFileBeforeRun": true,
+    /* Whether to run code in Integrated Terminal  */
+    "code-runner.runInTerminal": true,
+    "code-runner.terminalRoot": "/mnt/",
+    /*    */
+    "code-runner.executorMap":
+    {
+        //"javascript": "node",
+        //"php": "C:\\php\\php.exe",
+        "python": "python",
+        //"perl": "perl",
+        //"ruby": "C:\\Ruby23-x64\\bin\\ruby.exe",
+        //"go": "go run",
+        //"html": "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"",
+        //"java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "gcc -lm \"$fileName\" -o \"$fileNameWithoutExt.exe\" && \"./$fileNameWithoutExt\".exe",
+        //"c": "cd $dir && gcc \"$fileName\" -o \"$fileNameWithoutExt\" && $dir\"$fileNameWithoutExt\".exe",
+        "cpp": "g++ \"$fileName\" -o \"$fileNameWithoutExt.exe\" && \"./$fileNameWithoutExt\".exe",
+        //"cpp": "cd $dir && g++ \"$fileName\" -o \"$fileNameWithoutExt\" && $dir\"$fileNameWithoutExt\".exe"
+    },
+    "explorer.confirmDelete": false,
+    "epitech-c-cpp-headers.username": "frozenmaple",
+    "epitech-c-cpp-headers.login": "frozenmaple",
+    "epitech-c-cpp-headers.headerType": "pre2017",
+    "epitech-c-cpp-headers.usePragmaOnce": false,
+    "epitech-c-cpp-headers.autoGenerateClasses": true,
+    "workbench.settings.editor": "ui",
+    "sync.gist": "88d4b4d287b91241a425aad906a84c86",
+    "python.jediEnabled": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "C_Cpp.intelliSenseCacheSize": 0,
+    "git.autofetch": true,
+    "editor.renderWhitespace": "selection",
+    "julia.enableTelemetry": true,
+    "julia.enableCrashReporter": true,
+    "files.trimTrailingWhitespace": true,
+    "markdown.extension.toc.githubCompatibility": true,
+    "git.confirmSync": false
 }
