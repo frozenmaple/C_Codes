@@ -1,12 +1,14 @@
 /*
-** test_temp.c for special-symbol in c:\Users\froze\Documents\C Codes
+** test_temp.c for test only in d:\Dropbox\我的坚果云\Codes\C_Lang
 **
 ** Made by frozenmaple
 ** Login   <frozenmaple>
 **
-** Started on  Sat Oct 12 上午9:36:23 2019 frozenmaple
-** Last update Thu Jan 8 下午3:32:56 2020 frozenmaple
+** Started on  Thu Jan 9 上午9:30:20 2020 frozenmaple
+** Last update Fri Jan 9 上午9:30:25 2020 frozenmaple
 */
+
+
 
 #include <stdio.h>
 int main()
