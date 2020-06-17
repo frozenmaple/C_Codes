@@ -5,7 +5,7 @@
 ** Login   <frozenmaple>
 **
 ** Started on  Tue Jun 16 上午9:50:14 2020 frozenmaple
-** Last update Wed Jun 16 下午3:53:47 2020 frozenmaple
+** Last update Thu Jun 17 上午9:28:12 2020 frozenmaple
 */
 
 #include <stdio.h>
@@ -64,7 +64,7 @@ int main(int argc, char *argv[])
 
     while (fgets(line_two, LINE_SIZE, fp2) != NULL)
     {
-        printf("File 2 LINE NO.%d : %s\n", i, line_two);
+        printf("File 2 LINE NO.%d : %s", i, line_two);
         i++;
     }
 
