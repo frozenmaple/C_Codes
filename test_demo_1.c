@@ -5,11 +5,10 @@
 ** Login   <frozenmaple>
 **
 ** Started on  Sat Oct 10 9:24:56 PM 2020 frozenmaple
-** Last update Sun Oct 10 9:25:08 PM 2020 frozenmaple
+** Last update Sun Oct 10 10:04:35 PM 2020 frozenmaple
 */
 
-
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
 	printf("hello,world\n");
