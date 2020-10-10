@@ -1,25 +1,26 @@
 {
     "version": "2.0.0",
-    "command": "g++.exe",
-    "args": [
-        "-g",
-        "${file}",
-        "-o",
-        "${fileDirname}/${fileBasenameNoExtension}.exe"
-    ], // 编译命令参数
-    "problemMatcher": {
-        "owner": "cpp",
-        "fileLocation": [
-            "relative",
-            "${workspaceRoot}"
-        ],
-        "pattern": {
-            "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
-            "file": 1,
-            "line": 2,
-            "column": 3,
-            "severity": 4,
-            "message": 5
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "shell: g++.exe build active file (WSL)",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
-    }
+    ]
 }

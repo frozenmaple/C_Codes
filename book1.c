@@ -5,10 +5,10 @@
 ** Login   <frozenmaple>
 **
 ** Started on  Tue Feb 19 上午10:23:50 2019 frozenmaple
-** Last update Thu Jan 8 下午1:51:56 2020 frozenmaple
+** Last update Sun Oct 10 1:35:15 PM 2020 frozenmaple
 */
 
-#include "stdio.h"
+#include <stdio.h>
 
 int main()
 {
@@ -40,5 +40,6 @@ int main()
 	printf("%d,%d,%d\n",i,j,k);
 
 	getchar();
+
 	return 0;
 }
