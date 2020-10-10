@@ -5,39 +5,41 @@
 ** Login   <frozenmaple>
 **
 ** Started on  Tue Feb 19 上午10:23:50 2019 frozenmaple
-** Last update Sun Oct 10 1:35:15 PM 2020 frozenmaple
+** Last update Sun Oct 10 3:06:20 PM 2020 frozenmaple
 */
 
 #include <stdio.h>
 
 int main()
 {
-	int i = 5,j =6, k=0;
-	printf("%d,%d,%d\n",i,j,k);
+	int i = 5, j = 6, k = 0;
+	printf("%d,%d,%d\n", i, j, k);
 
-	i++;++j;
-	printf("%d,%d,%d\n",i,j,k);
+	i++;
+	++j;
+	printf("%d,%d,%d\n", i, j, k);
 
-	i--;--j;
-	printf("%d,%d,%d\n",i,j,k);
+	i--;
+	--j;
+	printf("%d,%d,%d\n", i, j, k);
 
-	k=(i++)+(++j);
-	printf("%d,%d,%d\n",i,j,k);
+	k = (i++) + (++j);
+	printf("%d,%d,%d\n", i, j, k);
 
-	k=(i--)+(--j);
-	printf("%d,%d,%d\n",i,j,k);
+	k = (i--) + (--j);
+	printf("%d,%d,%d\n", i, j, k);
 
-	i=j=k=7;
-	printf("%d,%d,%d\n",i,j,k);
+	i = j = k = 7;
+	printf("%d,%d,%d\n", i, j, k);
 
-	k+=i++;
-	printf("%d,%d,%d\n",i,j,k);
+	k += i++;
+	printf("%d,%d,%d\n", i, j, k);
 
-	k%=++i;
-	printf("%d,%d,%d\n",i,j,k);
+	k %= ++i;
+	printf("%d,%d,%d\n", i, j, k);
 
-	k*=j--;
-	printf("%d,%d,%d\n",i,j,k);
+	k *= j--;
+	printf("%d,%d,%d\n", i, j, k);
 
 	getchar();
 
