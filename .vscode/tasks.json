@@ -2,8 +2,8 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "type": "shell",
-            "label": "shell: g++.exe build active file (WSL)",
+            "type": "shell",    //指定下方的command为shell命令
+            "label": "shell: g++.exe build active file (WSL)",//自定义task的名字，在launch.json中用到
             "command": "/usr/bin/g++",
             "args": [
                 "-g",
