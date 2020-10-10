@@ -5,10 +5,8 @@
 ** Login   <frozenmaple>
 **
 ** Started on  Thu Jan 9 上午9:30:20 2020 frozenmaple
-** Last update Sun Oct 10 4:05:31 PM 2020 frozenmaple
+** Last update Sun Oct 10 10:55:14 PM 2020 frozenmaple
 */
-
-
 
 #include <stdio.h>
 int main()

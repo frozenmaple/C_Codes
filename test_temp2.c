@@ -5,11 +5,13 @@
 ** Login   <frozenmaple>
 **
 ** Started on  Sat Oct 12 上午9:36:39 2019 frozenmaple
-** Last update Tue Nov 25 上午9:53:02 2019 frozenmaple
+** Last update Mon Oct 11 6:56:50 AM 2020 frozenmaple
 */
 
 /* Program example P3A
     Introduction to the arithmetic operators in C. */
+
+
 #include <stdio.h>
 int main()
 {
@@ -21,15 +23,15 @@ int main()
 
     printf("a[i] is %d\n", a[i]);
     printf("p[i] is %d\n", p[i]);
-    
+
     printf("*(a+i) is %d\n", *(a + i));
     printf("*(p+i) is %d\n", *(p + i));
     //*/
 
-    
-    /*注意二级指针和一级指针的位移基础长度不同 
+
+    /*注意二级指针和一级指针的位移基础长度不同
     int a[3][3] = {{0, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-    
+
     printf("*(*(a+1)) is %d\n", *(*(a + 1)));
     printf("*(*a+1) is %d\n", *(*a + 1));
     printf("*(*a)+1 is %d\n", *(*a) + 1);
@@ -50,7 +52,7 @@ int main()
     //printf("*(a + 1) is %d\n", *(*a + 1));
     //printf("**(a+1) is %d\n", **(a + 1));
 
-    
+
 
     return 0;
 }
