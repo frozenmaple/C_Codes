@@ -5,17 +5,16 @@
 ** Login   <frozenmaple>
 **
 ** Started on  Sat Oct 10 9:24:56 PM 2020 frozenmaple
-** Last update Mon Oct 11 7:05:22 AM 2020 frozenmaple
+** Last update Mon Oct 11 7:06:32 AM 2020 frozenmaple
 */
 
 #include <stdio.h>
 int main()
 {
 	printf("hello,world\n");
-	int i = 0;
-	for (i = 0; i < 100;i++)
+	for (int i = 0; i < 100; i++)
 	{
-		
+		printf("%d ", i);
 	}
-		return 0;
+	return 0;
 }

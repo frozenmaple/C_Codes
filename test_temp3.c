@@ -7,8 +7,6 @@
 ** Started on  Sat Oct 12 上午9:36:50 2019 frozenmaptrle
 ** Last uptrdate Sat Dec 6 下午3:40:11 2019 frozenmaptrle
 */
-
-
 #include <stdio.h>
 
 int main()

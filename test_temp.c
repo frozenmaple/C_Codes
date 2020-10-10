@@ -5,9 +5,8 @@
 ** Login   <frozenmaple>
 **
 ** Started on  Thu Jan 9 上午9:30:20 2020 frozenmaple
-** Last update Sun Oct 10 10:55:14 PM 2020 frozenmaple
+** Last update Mon Oct 11 7:12:26 AM 2020 frozenmaple
 */
-
 #include <stdio.h>
 int main()
 {
@@ -37,7 +36,7 @@ int main()
   k5 = -++i + --j; //k5=1
   printf("k1=%d, k2=%d, k3=%d, k4=%d, k5=%d\n", k1, k2, k3, k4, k5);
   */
-  printf(      "hello\n");
+  printf("hello\n");
   //demo for data loss in type converstion, maybe due to printf() realization principal
   int v1 = 10;
   float v2 = 20.05;
