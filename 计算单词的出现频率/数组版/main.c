@@ -5,7 +5,7 @@
 ** Login   <frozenmaple>
 **
 ** Started on  Wed Nov 25 1:43:38 PM 2020 frozenmaple
-** Last update Thu Nov 25 2:04:01 PM 2020 frozenmaple
+** Last update Thu Dec 30 2:07:20 PM 2020 frozenmaple
 */
 
 #include <stdio.h>
@@ -13,7 +13,7 @@
 #include "get_word.h"
 #include "word_manage.h"
 
-#define WORD_LEN_MAX (1024)
+#define WORD_LEN_MAX 1024
 
 int main(int argc, char **argv)
 {

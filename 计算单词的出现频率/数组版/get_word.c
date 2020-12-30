@@ -5,26 +5,12 @@
 ** Login   <frozenmaple>
 **
 ** Started on  Sat Nov 14 2:37:04 PM 2020 frozenmaple
-** Last update Mon Nov 15 3:55:23 PM 2020 frozenmaple
+** Last update Thu Dec 30 2:09:32 PM 2020 frozenmaple
 */
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-
-int get_word(char *buf, int buf_size, FILE *fp);
-
-int main()
-{
-    char buf[1024];
-    FILE *fp = fopen("text1.txt", "r");
-    while (get_word(buf, 1024, fp) != EOF)
-    {
-        printf("<<%s>>\n", buf);
-    }
-    fclose(fp);
-    return 0;
-}
 
 int get_word(char *buf, int buf_size, FILE *fp)
 {
