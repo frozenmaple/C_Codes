@@ -7,7 +7,7 @@
    FILE *fp ; 
    char char_in ; 
  
-   if ( (fp = fopen("file.txt", "r")) == NULL ) 
+   if ( (fp = fopen("d:\\file2.txt", "r")) == NULL ) 
      puts( "Error in opening file.txt" ) ; 
    else 
    { 
