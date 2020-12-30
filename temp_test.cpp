@@ -12,20 +12,11 @@
 
 int main()
 {
-	//char *text = "some text";
-	char text[10]= "some text";
-	*(text+4)='\0';
-	printf("%s\n",text);
-	
-	int numbers[10]={3,7,8,2};
-	int *ptr=numbers;
-	printf("ptr is %p\n",ptr);
-	int val_num=*ptr--;
-	printf("value is %d, ptr is %p,*ptr is %d\n",val_num,ptr,*ptr);
-	char s[11]="123456780\0";
-	for(int i=0;i<11;i++)
-			printf("%d,",s[i]);
-	printf("\n%d\n",strlen(s));
+ 	int a[3]={1,3,5};
+ 	int *p;
+ 	p=a;
+ 	printf("p is %p, p+1 is %p\n",p,p+1);
+ 	printf("a is %p, a+1 is %p\n",a,a+1);
 	
 //	double array[2] = {0};
 //	double (*ptr)[2] = &array;
