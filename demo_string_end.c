@@ -4,8 +4,8 @@
 
 int main()
 {
-    char str[20] = {'0'}; //文本文件里的0，'0'
-                          //数值的0，'\0'
+    char str[20] = {'0'}; 
+    printf("%c %c\n", str[0], str[1]);
     printf("%d %d", str[0], str[1]);
 
     return 0;
