@@ -9,34 +9,23 @@
 #include <math.h>
 #include <time.h>
 #include <stdbool.h>
+#include <ctype.h>
+#define STOP '|'
+
 int main()
 {
-    int num, div;
-    bool isPrime;
-    printf("please enter a number:");
-    while (scanf("%d", &num)== 1)
+    char ch;
+    bool inword=true;
+    int word_count = 0;
+    int line_count = 0;
+
+    while ((ch = getchar())!= STOP)
     {
-        for (div  = 2,isPrime=true; (div * div) <= num; div++)
+        if (isspace((ch))&&!inword)
         {
-            if (num%div == 0)
-            {
-                if (div* div!=num)
-                {
-                    printf("%d can be divisible by %d and %d\n", num, div, num / div);
-                }
-                else
-                {
-                    printf("%d can be divisible by %d\n",num, div);
-                }
-                isPrime = false;
-            }
+            /* code */
         }
-        if (isPrime)
-        {
-            printf("%d is a prime\n",num);
-        }
-        printf("please enter a number:");
+
     }
-    printf("Bye\n");
     return 0;
 }
